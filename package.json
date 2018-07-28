@@ -1,0 +1,25 @@
+{
+  "name": "deverry-info-ejs",
+  "version": "1.0.0",
+  "description": "A website to show Bootstrap 4 layout and interaction in HTML5",
+  "main": "server.js",
+  "dependencies": {
+    "ejs-locals": "^1.0.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Casz146/deverry-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Casz146/deverry-site/issues"
+  },
+  "homepage": "https://github.com/Casz146/deverry-site#readme"
+}
