@@ -12,124 +12,408 @@
   <% include ../templates/header %>
 
     <div class="container main pt-4">
-      <div class="container tab-bg rounded p-3">
-        <h2 class=" pb-2">The Deverry Saga</h2>
+      <!-- To show on devices with a width >= 768px -->
+      <div class="d-none d-md-block">
+        <div class="container tab-bg rounded p-3">
+          <h2 class="pb-2">The Deverry Saga</h2>
 
-        <div class="row">
-
-          <div class="col-3">
-            <div class="list-group booklist" id="list-tab" role="tablist">
-              <a class="list-group-item list-group-item-action active  booklist" id="list-home-list" data-toggle="list" href="#dev-1"
-                role="tab" aria-controls="home">Daggerspell</a>
-              <a class="list-group-item list-group-item-action booklist" id="list-profile-list" data-toggle="list" href="#dev-2"
-                role="tab" aria-controls="profile">Darkspell</a>
-              <a class="list-group-item list-group-item-action booklist" id="list-messages-list" data-toggle="list" href="#dev-3"
-                role="tab" aria-controls="messages">Dawnspell</a>
-              <a class="list-group-item list-group-item-action booklist" id="list-settings-list" data-toggle="list" href="#dev-4"
-                role="tab" aria-controls="settings">Dragonspell</a>
-            </div>
-          </div>
-          <div class="col-8 pt-3 border-top border-bottom">
-            <div class="tab-content" id="nav-tabContent">
-              <div class="tab-pane fade show active" id="dev-1" role="tabpanel" aria-labelledby="list-home-list">A rebellion in the province of Eldidd instigated by the mad half-elven sorcerer Loddlaen, himself influenced
-                by a dark dweomerman. The immortal wizard Nevyn searches for Jill in order to fulfil an ancient oath. Jill
-                becomes the mistress of Lord Rhodry Maelwaedd.</div>
-              <div class="tab-pane fade" id="dev-2" role="tabpanel" aria-labelledby="list-profile-list">Rhodry is sent into exile by his brother Rhys, the Gwerbret of Aberwyn, and becomes a mercenary soldier called
-                a “silver dagger.” Jill goes with him; they become involved in a dark dweomerman’s plot to steal the Great
-                Stone of the West, a magical gemstone which guides the conscience of Deverry’s king.</div>
-              <div class="tab-pane fade" id="dev-3" role="tabpanel" aria-labelledby="list-messages-list">Jill is kidnapped by a very peculiar lord, and Rhodry searches for her, but is captured by pirates and sold
-                as slave in the island country of Bardek. When Gwerbret Rhys is mortally wounded, the king overrides Rhodry’s
-                sentence of exile.</div>
-              <div class="tab-pane fade" id="dev-4" role="tabpanel" aria-labelledby="list-settings-list">With Rhodry now a mindwiped slave in Bardek, Jill, along with Rhodry’s half-brother Ebañy aka “Salamander,”
-                travel to Bardek to rescue him, where they are later joined by Nevyn. Salamander begins teaching Jill dweomer,
-                and she becomes Nevyn’s apprentice when she returns to Deverry. Rhodry becomes the Gwerbret of Aberwyn, partially
-                fulfilling a prophetic omen.</div>
-            </div>
-          </div>
-          <div class="col-1"></div>
-        </div>
-      </div>
-      <div class="container tab-bg rounded p-3 mt-3">
-          <h2 class=" pb-2">The Westlands Saga</h2>
-  
           <div class="row">
-  
+
             <div class="col-3">
               <div class="list-group booklist" id="list-tab" role="tablist">
-                <a class="list-group-item list-group-item-action active  booklist" id="list-home-list" data-toggle="list" href="#west-1"
-                  role="tab" aria-controls="home">A Time of Exile</a>
-                <a class="list-group-item list-group-item-action booklist" id="list-profile-list" data-toggle="list" href="#west-2"
-                  role="tab" aria-controls="profile">A Time of Omens</a>
-                <a class="list-group-item list-group-item-action booklist" id="list-messages-list" data-toggle="list" href="#west-3"
-                  role="tab" aria-controls="messages">A Time of War</a>
-                <a class="list-group-item list-group-item-action booklist" id="list-settings-list" data-toggle="list" href="#west-4"
-                  role="tab" aria-controls="settings">A Time of Justice</a>
+                <a class="list-group-item list-group-item-action active  booklist" id="list-home-list" data-toggle="list" href="#dev-1" role="tab"
+                  aria-controls="home">Daggerspell</a>
+                <a class="list-group-item list-group-item-action booklist" id="list-profile-list" data-toggle="list" href="#dev-2" role="tab"
+                  aria-controls="profile">Darkspell</a>
+                <a class="list-group-item list-group-item-action booklist" id="list-messages-list" data-toggle="list" href="#dev-3" role="tab"
+                  aria-controls="messages">Dawnspell</a>
+                <a class="list-group-item list-group-item-action booklist" id="list-settings-list" data-toggle="list" href="#dev-4" role="tab"
+                  aria-controls="settings">Dragonspell</a>
               </div>
             </div>
             <div class="col-8 pt-3 border-top border-bottom">
               <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="west-1" role="tabpanel" aria-labelledby="list-home-list">Rhodry fakes his own death, and leaves Deverry behind to live among his Westfolk kin. Meanwhile, Jill, now a powerful dweomermaster, tries to decipher the riddle of Rhodry’s rose ring. A past-life sequence shows how Nevyn’s first apprentice, Aderyn, came to live among the Westfolk as one of their Wise Ones (dweomermasters), and how his lifespan was extended.</div>
-                <div class="tab-pane fade" id="west-2" role="tabpanel" aria-labelledby="list-profile-list">Jill travels to islands south of Bardek to learn of a lost tribe of Elcyon Lacar living there. Rhodry returns to Deverry as a mercenary, takes an apprentice of sorts, and helps a noble-born girl find her Elven lover who is the last descendant of Elven royalty.</div>
-                <div class="tab-pane fade" id="west-3" role="tabpanel" aria-labelledby="list-messages-list">Jahdo, a young boy from the Rhiddaer, aids a Gel da’Thae bard in searching for his brother. Jill sends Rhodry deep into the northern mountains to find the dragon whose name is inscribed on his rose ring. Along the way he encounters Haen Marn, with lasting consequences.</div>
-                <div class="tab-pane fade" id="west-4" role="tabpanel" aria-labelledby="list-settings-list">A Horsekin army besieges the city of Cengarn, driven by a mad Guardian posing as a goddess. The dragon, Arzosah, proves vital to turning the tide of battle, albeit by unexpected means.</div>
+                <div class="tab-pane fade show active" id="dev-1" role="tabpanel" aria-labelledby="list-home-list">A rebellion in the province of Eldidd instigated by the mad half-elven sorcerer Loddlaen, himself influenced
+                  by a dark dweomerman. The immortal wizard Nevyn searches for Jill in order to fulfil an ancient oath. Jill
+                  becomes the mistress of Lord Rhodry Maelwaedd.</div>
+                <div class="tab-pane fade" id="dev-2" role="tabpanel" aria-labelledby="list-profile-list">Rhodry is sent into exile by his brother Rhys, the Gwerbret of Aberwyn, and becomes a mercenary soldier called
+                  a “silver dagger.” Jill goes with him; they become involved in a dark dweomerman’s plot to steal the Great
+                  Stone of the West, a magical gemstone which guides the conscience of Deverry’s king.</div>
+                <div class="tab-pane fade" id="dev-3" role="tabpanel" aria-labelledby="list-messages-list">Jill is kidnapped by a very peculiar lord, and Rhodry searches for her, but is captured by pirates and sold
+                  as slave in the island country of Bardek. When Gwerbret Rhys is mortally wounded, the king overrides Rhodry’s
+                  sentence of exile.</div>
+                <div class="tab-pane fade" id="dev-4" role="tabpanel" aria-labelledby="list-settings-list">With Rhodry now a mindwiped slave in Bardek, Jill, along with Rhodry’s half-brother Ebañy aka “Salamander,”
+                  travel to Bardek to rescue him, where they are later joined by Nevyn. Salamander begins teaching Jill dweomer,
+                  and she becomes Nevyn’s apprentice when she returns to Deverry. Rhodry becomes the Gwerbret of Aberwyn,
+                  partially fulfilling a prophetic omen.</div>
               </div>
             </div>
             <div class="col-1"></div>
           </div>
         </div>
         <div class="container tab-bg rounded p-3 mt-3">
-            <h2 class=" pb-2">The Dragon Mage Saga</h2>
-    
-            <div class="row">
-    
-              <div class="col-3">
-                <div class="list-group booklist" id="list-tab" role="tablist">
-                  <a class="list-group-item list-group-item-action active  booklist" id="list-home-list" data-toggle="list" href="#drag-1"
-                    role="tab" aria-controls="home">The Red Wyvern</a>
-                  <a class="list-group-item list-group-item-action booklist" id="list-profile-list" data-toggle="list" href="#drag-2"
-                    role="tab" aria-controls="profile">The Black Raven</a>
-                  <a class="list-group-item list-group-item-action booklist" id="list-messages-list" data-toggle="list" href="#drag-3"
-                    role="tab" aria-controls="messages">The Fire Dragon</a>
+          <h2 class="pb-2">The Westlands Saga</h2>
+
+          <div class="row">
+
+            <div class="col-3">
+              <div class="list-group booklist" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active  booklist" id="list-home-list" data-toggle="list" href="#west-1"
+                  role="tab" aria-controls="home">A Time of Exile</a>
+                <a class="list-group-item list-group-item-action booklist" id="list-profile-list" data-toggle="list" href="#west-2" role="tab"
+                  aria-controls="profile">A Time of Omens</a>
+                <a class="list-group-item list-group-item-action booklist" id="list-messages-list" data-toggle="list" href="#west-3" role="tab"
+                  aria-controls="messages">A Time of War</a>
+                <a class="list-group-item list-group-item-action booklist" id="list-settings-list" data-toggle="list" href="#west-4" role="tab"
+                  aria-controls="settings">A Time of Justice</a>
+              </div>
+            </div>
+            <div class="col-8 pt-3 border-top border-bottom">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="west-1" role="tabpanel" aria-labelledby="list-home-list">Rhodry fakes his own death, and leaves Deverry behind to live among his Westfolk kin. Meanwhile, Jill, now
+                  a powerful dweomermaster, tries to decipher the riddle of Rhodry’s rose ring. A past-life sequence shows
+                  how Nevyn’s first apprentice, Aderyn, came to live among the Westfolk as one of their Wise Ones (dweomermasters),
+                  and how his lifespan was extended.</div>
+                <div class="tab-pane fade" id="west-2" role="tabpanel" aria-labelledby="list-profile-list">Jill travels to islands south of Bardek to learn of a lost tribe of Elcyon Lacar living there. Rhodry returns
+                  to Deverry as a mercenary, takes an apprentice of sorts, and helps a noble-born girl find her Elven lover
+                  who is the last descendant of Elven royalty.</div>
+                <div class="tab-pane fade" id="west-3" role="tabpanel" aria-labelledby="list-messages-list">Jahdo, a young boy from the Rhiddaer, aids a Gel da’Thae bard in searching for his brother. Jill sends Rhodry
+                  deep into the northern mountains to find the dragon whose name is inscribed on his rose ring. Along the
+                  way he encounters Haen Marn, with lasting consequences.</div>
+                <div class="tab-pane fade" id="west-4" role="tabpanel" aria-labelledby="list-settings-list">A Horsekin army besieges the city of Cengarn, driven by a mad Guardian posing as a goddess. The dragon, Arzosah,
+                  proves vital to turning the tide of battle, albeit by unexpected means.</div>
+              </div>
+            </div>
+            <div class="col-1"></div>
+          </div>
+        </div>
+        <div class="container tab-bg rounded p-3 mt-3">
+          <h2 class="pb-2">The Dragon Mage Saga</h2>
+
+          <div class="row">
+
+            <div class="col-3">
+              <div class="list-group booklist" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active  booklist" id="list-home-list" data-toggle="list" href="#drag-1"
+                  role="tab" aria-controls="home">The Red Wyvern</a>
+                <a class="list-group-item list-group-item-action booklist" id="list-profile-list" data-toggle="list" href="#drag-2" role="tab"
+                  aria-controls="profile">The Black Raven</a>
+                <a class="list-group-item list-group-item-action booklist" id="list-messages-list" data-toggle="list" href="#drag-3" role="tab"
+                  aria-controls="messages">The Fire Dragon</a>
+              </div>
+            </div>
+            <div class="col-8 pt-3 border-top border-bottom">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="drag-1" role="tabpanel" aria-labelledby="list-home-list">The only book in the cycle that is predominantly a single past-life sequence, chronicles the end of the Time
+                  of Troubles with the rise of Prince Maryn, the true king.</div>
+                <div class="tab-pane fade" id="drag-2" role="tabpanel" aria-labelledby="list-profile-list">A noblewoman of the false king’s clan with dweomer talent has cursed Prince Maryn. Her daughter rebels and
+                  becomes Nevyn’s apprentice. In the present, the daughter has been reincarnated as Jahdo’s older sister,
+                  while the noblewoman herself is reincarnated as the dweomer-talented priestess of the false goddess.</div>
+                <div class="tab-pane fade" id="drag-3" role="tabpanel" aria-labelledby="list-messages-list">In the past-life sequence, the tale of Maryn is concluded. In the present, Jahdo is returned to his home
+                  in the Rhiddaer, with dramatic consequences for several major characters.</div>
+              </div>
+            </div>
+            <div class="col-1"></div>
+          </div>
+        </div>
+        <div class="container tab-bg rounded p-3 mt-3">
+          <h2 class="pb-2">The Silver Wyrm Saga</h2>
+
+          <div class="row">
+
+            <div class="col-3">
+              <div class="list-group booklist" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active  booklist" id="list-home-list" data-toggle="list" href="#wyr-1" role="tab"
+                  aria-controls="home">The Gold Falcon</a>
+                <a class="list-group-item list-group-item-action booklist" id="list-profile-list" data-toggle="list" href="#wyr-2" role="tab"
+                  aria-controls="profile">The Spirit Stone</a>
+                <a class="list-group-item list-group-item-action booklist" id="list-messages-list" data-toggle="list" href="#wyr-3" role="tab"
+                  aria-controls="messages">The Shadow Isle</a>
+                <a class="list-group-item list-group-item-action booklist" id="list-messages-list" data-toggle="list" href="#wyr-4" role="tab"
+                  aria-controls="messages">The Silver Mage</a>
+              </div>
+            </div>
+            <div class="col-8 pt-3 border-top border-bottom">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="wyr-1" role="tabpanel" aria-labelledby="list-home-list">More than forty years after The Fire Dragon, Nevyn and Jill are reincarnated as young lovers. The Horsekin,
+                  motivated by a cult based on the now-deceased mad Guardian pseudo-goddess Alshandra, have built a fortress
+                  in preparation for conquering the Westlands and Deverry.</div>
+                <div class="tab-pane fade" id="wyr-2" role="tabpanel" aria-labelledby="list-profile-list">A mysterious black stone plays a major role in events involving (among other things) a group of outcast Horsekin
+                  and half-breeds who are persecuted by Alshandra worshipers because of their dweomer talents. A past-life
+                  sequence connects with just prior to the present-time events of Daggerspell, completing the “Celtic knot”
+                  structure of the cycle, and features the early childhood of Salamander.</div>
+                <div class="tab-pane fade" id="wyr-3" role="tabpanel" aria-labelledby="list-messages-list">The return of Haen Marn catalyzes major events, including the presence of a young man from Earth. Introduces
+                  the Dwrgi.</div>
+                <div class="tab-pane fade" id="wyr-4" role="tabpanel" aria-labelledby="list-messages-list">The conclusion of the Deverry saga.</div>
+              </div>
+            </div>
+            <div class="col-1"></div>
+          </div>
+        </div>
+      </div>
+      <!-- To show on devices with a width <768px -->
+      <div class="d-md-none">
+        <div class="container tab-bg rounded p-3">
+          <h2 class="pb-2">The Deverry Saga</h2>
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header booklist-mb" id="hd-dev-1">
+                <h5 class="mb-0">
+                  <button class="btn btn-link booklist-mb" data-toggle="collapse" data-target="#dev-1-mb" aria-expanded="true" aria-controls="collapseOne">
+                    Daggerspell
+                  </button>
+                </h5>
+              </div>
+
+              <div id="dev-1-mb" class="collapse show" aria-labelledby="hd-dev-1" data-parent="#accordion">
+                <div class="card-body">
+                  A rebellion in the province of Eldidd instigated by the mad half-elven sorcerer Loddlaen, himself influenced by a dark dweomerman.
+                  The immortal wizard Nevyn searches for Jill in order to fulfil an ancient oath. Jill becomes the mistress
+                  of Lord Rhodry Maelwaedd.
                 </div>
               </div>
-              <div class="col-8 pt-3 border-top border-bottom">
-                <div class="tab-content" id="nav-tabContent">
-                  <div class="tab-pane fade show active" id="drag-1" role="tabpanel" aria-labelledby="list-home-list">The only book in the cycle that is predominantly a single past-life sequence, chronicles the end of the Time of Troubles with the rise of Prince Maryn, the true king.</div>
-                  <div class="tab-pane fade" id="drag-2" role="tabpanel" aria-labelledby="list-profile-list">A noblewoman of the false king’s clan with dweomer talent has cursed Prince Maryn. Her daughter rebels and becomes Nevyn’s apprentice. In the present, the daughter has been reincarnated as Jahdo’s older sister, while the noblewoman herself is reincarnated as the dweomer-talented priestess of the false goddess.</div>
-                  <div class="tab-pane fade" id="drag-3" role="tabpanel" aria-labelledby="list-messages-list">In the past-life sequence, the tale of Maryn is concluded. In the present, Jahdo is returned to his home in the Rhiddaer, with dramatic consequences for several major characters.</div>
+            </div>
+            <div class="card">
+              <div class="card-header booklist-mb" id="hd-dev-2">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed booklist-mb" data-toggle="collapse" data-target="#dev-2-mb" aria-expanded="false" aria-controls="collapseTwo">
+                    Darkspell
+                  </button>
+                </h5>
+              </div>
+              <div id="dev-2-mb" class="collapse" aria-labelledby="hd-dev-2" data-parent="#accordion">
+                <div class="card-body">
+                  Rhodry is sent into exile by his brother Rhys, the Gwerbret of Aberwyn, and becomes a mercenary soldier called a “silver
+                  dagger.” Jill goes with him; they become involved in a dark dweomerman’s plot to steal the Great Stone
+                  of the West, a magical gemstone which guides the conscience of Deverry’s king.
                 </div>
               </div>
-              <div class="col-1"></div>
+            </div>
+            <div class="card">
+              <div class="card-header booklist-mb" id="hd-dev-3">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed booklist-mb" data-toggle="collapse" data-target="#dev-3-mb" aria-expanded="false" aria-controls="collapseThree">
+                    Dawnspell
+                  </button>
+                </h5>
+              </div>
+              <div id="dev-3-mb" class="collapse" aria-labelledby="hd-dev-3" data-parent="#accordion">
+                <div class="card-body">
+                  Jill is kidnapped by a very peculiar lord, and Rhodry searches for her, but is captured by pirates and sold as slave in the
+                  island country of Bardek. When Gwerbret Rhys is mortally wounded, the king overrides Rhodry’s sentence
+                  of exile.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header booklist-mb" id="hd-dev-4">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed booklist-mb" data-toggle="collapse" data-target="#dev-4-mb" aria-expanded="false" aria-controls="collapseThree">
+                    Dragonspell
+                  </button>
+                </h5>
+              </div>
+              <div id="dev-4-mb" class="collapse" aria-labelledby="hd-dev-4" data-parent="#accordion">
+                <div class="card-body">
+                  With Rhodry now a mindwiped slave in Bardek, Jill, along with Rhodry’s half-brother Ebañy aka “Salamander,” travel to Bardek
+                  to rescue him, where they are later joined by Nevyn. Salamander begins teaching Jill dweomer, and she becomes
+                  Nevyn’s apprentice when she returns to Deverry. Rhodry becomes the Gwerbret of Aberwyn, partially fulfilling
+                  a prophetic omen.
+                </div>
+              </div>
             </div>
           </div>
-          <div class="container tab-bg rounded p-3 mt-3">
-              <h2 class=" pb-2">The Silver Wyrm Saga</h2>
-      
-              <div class="row">
-      
-                <div class="col-3">
-                  <div class="list-group booklist" id="list-tab" role="tablist">
-                    <a class="list-group-item list-group-item-action active  booklist" id="list-home-list" data-toggle="list" href="#wyr-1"
-                      role="tab" aria-controls="home">The Gold Falcon</a>
-                    <a class="list-group-item list-group-item-action booklist" id="list-profile-list" data-toggle="list" href="#wyr-2"
-                      role="tab" aria-controls="profile">The Spirit Stone</a>
-                    <a class="list-group-item list-group-item-action booklist" id="list-messages-list" data-toggle="list" href="#wyr-3"
-                      role="tab" aria-controls="messages">The Shadow Isle</a>
-                      <a class="list-group-item list-group-item-action booklist" id="list-messages-list" data-toggle="list" href="#wyr-4"
-                      role="tab" aria-controls="messages">The Silver Mage</a>
-                  </div>
+        </div>
+        <div class="container tab-bg rounded p-3 mt-3">
+          <h2 class="pb-2">The Westlands Saga</h2>
+          <div id="accordion2">
+            <div class="card">
+              <div class="card-header booklist-mb" id="hd-west-1">
+                <h5 class="mb-0">
+                  <button class="btn btn-link booklist-mb" data-toggle="collapse" data-target="#west-1-mb" aria-expanded="true" aria-controls="collapseOne">
+                    A Time of Exile
+                  </button>
+                </h5>
+              </div>
+
+              <div id="west-1-mb" class="collapse show" aria-labelledby="hd-west-1" data-parent="#accordion2">
+                <div class="card-body">
+                  Rhodry fakes his own death, and leaves Deverry behind to live among his Westfolk kin. Meanwhile, Jill, now a powerful dweomermaster,
+                  tries to decipher the riddle of Rhodry’s rose ring. A past-life sequence shows how Nevyn’s first apprentice,
+                  Aderyn, came to live among the Westfolk as one of their Wise Ones (dweomermasters), and how his lifespan
+                  was extended.
                 </div>
-                <div class="col-8 pt-3 border-top border-bottom">
-                  <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="wyr-1" role="tabpanel" aria-labelledby="list-home-list">More than forty years after The Fire Dragon, Nevyn and Jill are reincarnated as young lovers. The Horsekin, motivated by a cult based on the now-deceased mad Guardian pseudo-goddess Alshandra, have built a fortress in preparation for conquering the Westlands and Deverry.</div>
-                    <div class="tab-pane fade" id="wyr-2" role="tabpanel" aria-labelledby="list-profile-list">A mysterious black stone plays a major role in events involving (among other things) a group of outcast Horsekin and half-breeds who are persecuted by Alshandra worshipers because of their dweomer talents. A past-life sequence connects with just prior to the present-time events of Daggerspell, completing the “Celtic knot” structure of the cycle, and features the early childhood of Salamander.</div>
-                    <div class="tab-pane fade" id="wyr-3" role="tabpanel" aria-labelledby="list-messages-list">The return of Haen Marn catalyzes major events, including the presence of a young man from Earth. Introduces the Dwrgi.</div>
-                    <div class="tab-pane fade" id="wyr-4" role="tabpanel" aria-labelledby="list-messages-list">The conclusion of the Deverry saga.</div>
-                  </div>
-                </div>
-                <div class="col-1"></div>
               </div>
             </div>
+            <div class="card">
+              <div class="card-header booklist-mb" id="hd-west-2">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed booklist-mb" data-toggle="collapse" data-target="#west-2-mb" aria-expanded="false"
+                    aria-controls="collapseTwo">
+                    A Time of Omens
+                  </button>
+                </h5>
+              </div>
+              <div id="west-2-mb" class="collapse" aria-labelledby="hd-west-2" data-parent="#accordion2">
+                <div class="card-body">
+                  Jill travels to islands south of Bardek to learn of a lost tribe of Elcyon Lacar living there. Rhodry returns to Deverry
+                  as a mercenary, takes an apprentice of sorts, and helps a noble-born girl find her Elven lover who is the
+                  last descendant of Elven royalty.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header booklist-mb" id="hd-west-3">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed booklist-mb" data-toggle="collapse" data-target="#west-3-mb" aria-expanded="false"
+                    aria-controls="collapseThree">
+                    A Time of War
+                  </button>
+                </h5>
+              </div>
+              <div id="west-3-mb" class="collapse" aria-labelledby="hd-west-3" data-parent="#accordion2">
+                <div class="card-body">
+                  Jahdo, a young boy from the Rhiddaer, aids a Gel da’Thae bard in searching for his brother. Jill sends Rhodry deep into the
+                  northern mountains to find the dragon whose name is inscribed on his rose ring. Along the way he encounters
+                  Haen Marn, with lasting consequences.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header booklist-mb" id="hd-west-4">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed booklist-mb" data-toggle="collapse" data-target="#west-4-mb" aria-expanded="false"
+                    aria-controls="collapseThree">
+                    A Time of Justice
+                  </button>
+                </h5>
+              </div>
+              <div id="west-4-mb" class="collapse" aria-labelledby="hd-west-4" data-parent="#accordion2">
+                <div class="card-body">
+                  A Horsekin army besieges the city of Cengarn, driven by a mad Guardian posing as a goddess. The dragon, Arzosah, proves vital
+                  to turning the tide of battle, albeit by unexpected means.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container tab-bg rounded p-3 mt-3">
+          <h2 class="pb-2">The Dragon Mage Saga</h2>
+          <div id="accordion3">
+            <div class="card">
+              <div class="card-header booklist-mb" id="hd-drag-1">
+                <h5 class="mb-0">
+                  <button class="btn btn-link booklist-mb" data-toggle="collapse" data-target="#drag-1-mb" aria-expanded="true" aria-controls="collapseOne">
+                    The Red Wyvern
+                  </button>
+                </h5>
+              </div>
+
+              <div id="drag-1-mb" class="collapse show" aria-labelledby="hd-drag-1" data-parent="#accordion3">
+                <div class="card-body">
+                  The only book in the cycle that is predominantly a single past-life sequence, chronicles the end of the Time of Troubles
+                  with the rise of Prince Maryn, the true king.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header booklist-mb" id="hd-drag-2">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed booklist-mb" data-toggle="collapse" data-target="#drag-2-mb" aria-expanded="false"
+                    aria-controls="collapseTwo">
+                    The Black Raven
+                  </button>
+                </h5>
+              </div>
+              <div id="drag-2-mb" class="collapse" aria-labelledby="hd-drag-2" data-parent="#accordion3">
+                <div class="card-body">
+                  A noblewoman of the false king’s clan with dweomer talent has cursed Prince Maryn. Her daughter rebels and becomes Nevyn’s
+                  apprentice. In the present, the daughter has been reincarnated as Jahdo’s older sister, while the noblewoman
+                  herself is reincarnated as the dweomer-talented priestess of the false goddess.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+                <div class="card-header booklist-mb" id="hd-drag-3">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed booklist-mb" data-toggle="collapse" data-target="#drag-3-mb" aria-expanded="false"
+                      aria-controls="collapseThree">
+                      The Fire Dragon
+                    </button>
+                  </h5>
+                </div>
+                <div id="drag-3-mb" class="collapse" aria-labelledby="hd-drag-3" data-parent="#accordion3">
+                  <div class="card-body">
+                      In the past-life sequence, the tale of Maryn is concluded. In the present, Jahdo is returned to his home in the Rhiddaer, with dramatic consequences for several major characters.
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="container tab-bg rounded p-3 mt-3">
+          <h2 class="pb-2">The Silver Wyrm Saga</h2>
+          <div id="accordion4">
+            <div class="card">
+              <div class="card-header booklist-mb" id="hd-wyr-1">
+                <h5 class="mb-0">
+                  <button class="btn btn-link booklist-mb" data-toggle="collapse" data-target="#wyr-1-mb" aria-expanded="true" aria-controls="collapseOne">
+                      The Gold Falcon
+                  </button>
+                </h5>
+              </div>
+
+              <div id="wyr-1-mb" class="collapse show" aria-labelledby="hd-wyr-1" data-parent="#accordion4">
+                <div class="card-body">
+                    More than forty years after The Fire Dragon, Nevyn and Jill are reincarnated as young lovers. The Horsekin, motivated by a cult based on the now-deceased mad Guardian pseudo-goddess Alshandra, have built a fortress in preparation for conquering the Westlands and Deverry.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header booklist-mb" id="hd-wyr-2">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed booklist-mb" data-toggle="collapse" data-target="#wyr-2-mb" aria-expanded="false" aria-controls="collapseTwo">
+                      The Spirit Stone
+                  </button>
+                </h5>
+              </div>
+              <div id="wyr-2-mb" class="collapse" aria-labelledby="hd-wyr-2" data-parent="#accordion4">
+                <div class="card-body">
+                    A mysterious black stone plays a major role in events involving (among other things) a group of outcast Horsekin and half-breeds who are persecuted by Alshandra worshipers because of their dweomer talents. A past-life sequence connects with just prior to the present-time events of Daggerspell, completing the “Celtic knot” structure of the cycle, and features the early childhood of Salamander.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header booklist-mb" id="hd-wyr-3">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed booklist-mb" data-toggle="collapse" data-target="#wyr-3-mb" aria-expanded="false" aria-controls="collapseThree">
+                      The Shadow Isle
+                  </button>
+                </h5>
+              </div>
+              <div id="wyr-3-mb" class="collapse" aria-labelledby="hd-wyr-3" data-parent="#accordion4">
+                <div class="card-body">
+                    The return of Haen Marn catalyzes major events, including the presence of a young man from Earth. Introduces the Dwrgi.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header booklist-mb" id="hd-wyr-4">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed booklist-mb" data-toggle="collapse" data-target="#wyr-4-mb" aria-expanded="false" aria-controls="collapseThree">
+                      The Silver Mage
+                  </button>
+                </h5>
+              </div>
+              <div id="wyr-4-mb" class="collapse" aria-labelledby="hd-wyr-4" data-parent="#accordion4">
+                <div class="card-body">
+                    The conclusion of the Deverry saga.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
 
 

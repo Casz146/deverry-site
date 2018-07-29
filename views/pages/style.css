@@ -22,17 +22,34 @@ h2 {
     background-color: rgb(199, 160, 60);
 }
 
-.charCard, .booklist {
+.charCard, .booklist, .booklist-mb {
     background-color: rgb(167, 102, 28);
     
+}
+
+.booklist-mb {
+    color: white;
+}
+
+.booklist-mb:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
     .container.mt-4.mainDiv {
         column-count: 1; 
     }
+    .card-columns {
+        column-count: 1;
+    }
 }
 
+@media (min-width: 579px) and (max-width: 960px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
 
 /* Extra small devices (phones, up to 480px) */
 @media screen and (max-width: 767px) {

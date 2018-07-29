@@ -20,5 +20,9 @@ app.get('/', function(req, res) {
     res.render('pages/index');
 });
 
+app.get('/favico.ico' , function(req , res){
+    
+});
+
 app.listen(8080);
 console.log('8080 is the magic port');
