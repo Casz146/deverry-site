@@ -1,7 +1,10 @@
 // server.js
 // load the things we need
 var express = require('express');
+var favicon = require('serve-favicon')
 var app = express();
+
+app.use(favicon(__dirname + '/favicon.ico'));
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
@@ -18,10 +21,6 @@ app.get('/:page', function(req, res) {
 // about page 
 app.get('/', function(req, res) {
     res.render('pages/index');
-});
-
-app.get('/favico.ico' , function(req , res){
-    
 });
 
 app.listen(8080);

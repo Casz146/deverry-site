@@ -9,9 +9,11 @@
 
 <body>
   <!-- Navbar -->
-  <% include ../templates/header %>
-
-    <div class="container main pt-4">
+  <header>
+    <% include ../templates/header %>
+  </header>
+  <main>
+    <div class="container main pt-4 book-cont">
       <!-- To show on devices with a width >= 768px -->
       <div class="d-none d-md-block">
         <div class="container tab-bg rounded p-3">
@@ -19,7 +21,7 @@
 
           <div class="row">
 
-            <div class="col-3">
+            <div class="col-3 col-lg-4">
               <div class="list-group booklist" id="list-tab" role="tablist">
                 <a class="list-group-item list-group-item-action active  booklist" id="list-home-list" data-toggle="list" href="#dev-1" role="tab"
                   aria-controls="home">Daggerspell</a>
@@ -31,7 +33,7 @@
                   aria-controls="settings">Dragonspell</a>
               </div>
             </div>
-            <div class="col-8 pt-3 border-top border-bottom">
+            <div class="col-8 col-lg-7 pt-3 border-top border-bottom">
               <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="dev-1" role="tabpanel" aria-labelledby="list-home-list">A rebellion in the province of Eldidd instigated by the mad half-elven sorcerer Loddlaen, himself influenced
                   by a dark dweomerman. The immortal wizard Nevyn searches for Jill in order to fulfil an ancient oath. Jill
@@ -51,12 +53,12 @@
             <div class="col-1"></div>
           </div>
         </div>
-        <div class="container tab-bg rounded p-3 mt-3">
+        <div class="container tab-bg rounded p-3 mt-3 book-group">
           <h2 class="pb-2">The Westlands Saga</h2>
 
           <div class="row">
 
-            <div class="col-3">
+            <div class="col-3 col-lg-4">
               <div class="list-group booklist" id="list-tab" role="tablist">
                 <a class="list-group-item list-group-item-action active  booklist" id="list-home-list" data-toggle="list" href="#west-1"
                   role="tab" aria-controls="home">A Time of Exile</a>
@@ -68,7 +70,7 @@
                   aria-controls="settings">A Time of Justice</a>
               </div>
             </div>
-            <div class="col-8 pt-3 border-top border-bottom">
+            <div class="col-8 col-lg-7 pt-3 border-top border-bottom">
               <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="west-1" role="tabpanel" aria-labelledby="list-home-list">Rhodry fakes his own death, and leaves Deverry behind to live among his Westfolk kin. Meanwhile, Jill, now
                   a powerful dweomermaster, tries to decipher the riddle of Rhodry’s rose ring. A past-life sequence shows
@@ -87,12 +89,12 @@
             <div class="col-1"></div>
           </div>
         </div>
-        <div class="container tab-bg rounded p-3 mt-3">
+        <div class="container tab-bg rounded p-3 mt-3 book-group">
           <h2 class="pb-2">The Dragon Mage Saga</h2>
 
           <div class="row">
 
-            <div class="col-3">
+            <div class="col-3 col-lg-4">
               <div class="list-group booklist" id="list-tab" role="tablist">
                 <a class="list-group-item list-group-item-action active  booklist" id="list-home-list" data-toggle="list" href="#drag-1"
                   role="tab" aria-controls="home">The Red Wyvern</a>
@@ -102,7 +104,7 @@
                   aria-controls="messages">The Fire Dragon</a>
               </div>
             </div>
-            <div class="col-8 pt-3 border-top border-bottom">
+            <div class="col-8 col-lg-7 pt-3 border-top border-bottom">
               <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="drag-1" role="tabpanel" aria-labelledby="list-home-list">The only book in the cycle that is predominantly a single past-life sequence, chronicles the end of the Time
                   of Troubles with the rise of Prince Maryn, the true king.</div>
@@ -116,12 +118,12 @@
             <div class="col-1"></div>
           </div>
         </div>
-        <div class="container tab-bg rounded p-3 mt-3">
+        <div class="container tab-bg rounded p-3 mt-3 book-group">
           <h2 class="pb-2">The Silver Wyrm Saga</h2>
 
           <div class="row">
 
-            <div class="col-3">
+            <div class="col-3 col-lg-4">
               <div class="list-group booklist" id="list-tab" role="tablist">
                 <a class="list-group-item list-group-item-action active  booklist" id="list-home-list" data-toggle="list" href="#wyr-1" role="tab"
                   aria-controls="home">The Gold Falcon</a>
@@ -133,7 +135,7 @@
                   aria-controls="messages">The Silver Mage</a>
               </div>
             </div>
-            <div class="col-8 pt-3 border-top border-bottom">
+            <div class="col-8 col-lg-7 pt-3 border-top border-bottom">
               <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="wyr-1" role="tabpanel" aria-labelledby="list-home-list">More than forty years after The Fire Dragon, Nevyn and Jill are reincarnated as young lovers. The Horsekin,
                   motivated by a cult based on the now-deceased mad Guardian pseudo-goddess Alshandra, have built a fortress
@@ -334,20 +336,21 @@
               </div>
             </div>
             <div class="card">
-                <div class="card-header booklist-mb" id="hd-drag-3">
-                  <h5 class="mb-0">
-                    <button class="btn btn-link collapsed booklist-mb" data-toggle="collapse" data-target="#drag-3-mb" aria-expanded="false"
-                      aria-controls="collapseThree">
-                      The Fire Dragon
-                    </button>
-                  </h5>
-                </div>
-                <div id="drag-3-mb" class="collapse" aria-labelledby="hd-drag-3" data-parent="#accordion3">
-                  <div class="card-body">
-                      In the past-life sequence, the tale of Maryn is concluded. In the present, Jahdo is returned to his home in the Rhiddaer, with dramatic consequences for several major characters.
-                  </div>
+              <div class="card-header booklist-mb" id="hd-drag-3">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed booklist-mb" data-toggle="collapse" data-target="#drag-3-mb" aria-expanded="false"
+                    aria-controls="collapseThree">
+                    The Fire Dragon
+                  </button>
+                </h5>
+              </div>
+              <div id="drag-3-mb" class="collapse" aria-labelledby="hd-drag-3" data-parent="#accordion3">
+                <div class="card-body">
+                  In the past-life sequence, the tale of Maryn is concluded. In the present, Jahdo is returned to his home in the Rhiddaer,
+                  with dramatic consequences for several major characters.
                 </div>
               </div>
+            </div>
           </div>
         </div>
         <div class="container tab-bg rounded p-3 mt-3">
@@ -357,14 +360,16 @@
               <div class="card-header booklist-mb" id="hd-wyr-1">
                 <h5 class="mb-0">
                   <button class="btn btn-link booklist-mb" data-toggle="collapse" data-target="#wyr-1-mb" aria-expanded="true" aria-controls="collapseOne">
-                      The Gold Falcon
+                    The Gold Falcon
                   </button>
                 </h5>
               </div>
 
               <div id="wyr-1-mb" class="collapse show" aria-labelledby="hd-wyr-1" data-parent="#accordion4">
                 <div class="card-body">
-                    More than forty years after The Fire Dragon, Nevyn and Jill are reincarnated as young lovers. The Horsekin, motivated by a cult based on the now-deceased mad Guardian pseudo-goddess Alshandra, have built a fortress in preparation for conquering the Westlands and Deverry.
+                  More than forty years after The Fire Dragon, Nevyn and Jill are reincarnated as young lovers. The Horsekin, motivated by
+                  a cult based on the now-deceased mad Guardian pseudo-goddess Alshandra, have built a fortress in preparation
+                  for conquering the Westlands and Deverry.
                 </div>
               </div>
             </div>
@@ -372,13 +377,16 @@
               <div class="card-header booklist-mb" id="hd-wyr-2">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed booklist-mb" data-toggle="collapse" data-target="#wyr-2-mb" aria-expanded="false" aria-controls="collapseTwo">
-                      The Spirit Stone
+                    The Spirit Stone
                   </button>
                 </h5>
               </div>
               <div id="wyr-2-mb" class="collapse" aria-labelledby="hd-wyr-2" data-parent="#accordion4">
                 <div class="card-body">
-                    A mysterious black stone plays a major role in events involving (among other things) a group of outcast Horsekin and half-breeds who are persecuted by Alshandra worshipers because of their dweomer talents. A past-life sequence connects with just prior to the present-time events of Daggerspell, completing the “Celtic knot” structure of the cycle, and features the early childhood of Salamander.
+                  A mysterious black stone plays a major role in events involving (among other things) a group of outcast Horsekin and half-breeds
+                  who are persecuted by Alshandra worshipers because of their dweomer talents. A past-life sequence connects
+                  with just prior to the present-time events of Daggerspell, completing the “Celtic knot” structure of the
+                  cycle, and features the early childhood of Salamander.
                 </div>
               </div>
             </div>
@@ -386,13 +394,13 @@
               <div class="card-header booklist-mb" id="hd-wyr-3">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed booklist-mb" data-toggle="collapse" data-target="#wyr-3-mb" aria-expanded="false" aria-controls="collapseThree">
-                      The Shadow Isle
+                    The Shadow Isle
                   </button>
                 </h5>
               </div>
               <div id="wyr-3-mb" class="collapse" aria-labelledby="hd-wyr-3" data-parent="#accordion4">
                 <div class="card-body">
-                    The return of Haen Marn catalyzes major events, including the presence of a young man from Earth. Introduces the Dwrgi.
+                  The return of Haen Marn catalyzes major events, including the presence of a young man from Earth. Introduces the Dwrgi.
                 </div>
               </div>
             </div>
@@ -400,13 +408,13 @@
               <div class="card-header booklist-mb" id="hd-wyr-4">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed booklist-mb" data-toggle="collapse" data-target="#wyr-4-mb" aria-expanded="false" aria-controls="collapseThree">
-                      The Silver Mage
+                    The Silver Mage
                   </button>
                 </h5>
               </div>
               <div id="wyr-4-mb" class="collapse" aria-labelledby="hd-wyr-4" data-parent="#accordion4">
                 <div class="card-body">
-                    The conclusion of the Deverry saga.
+                  The conclusion of the Deverry saga.
                 </div>
               </div>
             </div>
@@ -415,10 +423,10 @@
       </div>
     </div>
     </div>
-
-
+  </main>
+  <footer>
     <% include ../templates/footer.ejs %>
-
+  </footer>
 </body>
 
 </html>

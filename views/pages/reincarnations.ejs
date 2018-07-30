@@ -8,8 +8,10 @@
 
 <body>
   <!-- Navbar -->
-  <% include ../templates/header %>
-
+  <header>
+    <% include ../templates/header %>
+  </header>
+  <main>
     <div class="container main pt-4 reinc-table">
       <div class="table-responsive">
         <table class="table table-hover table-sm table-warning table-bordered">
@@ -328,9 +330,10 @@
         </table>
       </div>
     </div>
-
+  </main>
+  <footer>
     <% include ../templates/footer.ejs %>
-
+  </footer>
 
 </body>
 
