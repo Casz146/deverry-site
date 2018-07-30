@@ -23,5 +23,7 @@ app.get('/', function(req, res) {
     res.render('pages/index');
 });
 
-app.listen(8080);
+var port_number = process.env.PORT || 8080;
+app.listen(port_number);
+
 console.log('8080 is the magic port');
