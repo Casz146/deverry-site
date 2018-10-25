@@ -1,7 +1,7 @@
 // server.js
 // load the things we need
 var express = require('express');
-var favicon = require('serve-favicon')
+var favicon = require('serve-favicon');
 var app = express();
 
 app.use(favicon(__dirname + '/favicon.ico'));
